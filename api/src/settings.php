@@ -10,8 +10,8 @@ return [
 		'db' => [
 			'host' => 'localhost',
 			'dbname' => 'teste_red',
-			'user' => 'root',
-			'pass' => 'devecchi'
+			'user' => '<seu_nome_de_usuario_aqui>',
+			'pass' => '<sua_senha_de_usuario_aqui>'
 		]
 	]
 ];
