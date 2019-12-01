@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Cadastro de Incidentes</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body ng-app="main-App">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Cadastro de Incidentes</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid" style="margin-top: 50px;">
+        <ng-view></ng-view>
+    </div>
+
+    <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+        <div class="container-fluid text-center">
+            <p style="margin-top: 15px; color: silver;">&copy; André Devecchi 2019</p>
+        </div>
+    </nav>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Angular JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.8/angular-route.min.js"></script>
+    <!-- App -->
+    <script src="app/packages/dirPagination.js"></script>
+    <script src="app/routes.js"></script>
+    <script src="app/services/IncidenteServices.js"></script>
+    <script src="app/helper/IncidenteHelper.js"></script>
+    <!-- App Controller -->
+    <script src="app/controllers/IncidenteController.js"></script>
+</body>
+</html>
