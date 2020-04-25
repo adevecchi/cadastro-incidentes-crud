@@ -9,8 +9,8 @@ return [
 		'db' => [
 			'host' => 'localhost',
 			'dbname' => 'dvq_red',
-			'user' => 'admin',
-			'pass' => 'GataXux@1'
+			'user' => '<seu_nome_de_usuario_aqui>',
+			'pass' => '<sua_senha_de_usuario_aqui>'
 		]
 	]
 ];
