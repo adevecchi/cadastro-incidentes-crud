@@ -23,7 +23,7 @@ Seu conteúdo é mostrado abaixo:
     ]
 ```
 
-Alterar conforme seus valores de acesso para o MySQL. O script SQL para o MySQL segue abaixo:
+Alterar conforme seus valores de acesso para o MySQL. O script para o MySQL segue abaixo:
 
 ```sql
 CREATE DATABASE `dvq_red`
@@ -44,12 +44,6 @@ CREATE TABLE `incidentes` (
 ```
 
 que se encontra no arquivo ***script.sql***
-
-Entre com a URL na barra de endereço do browser conforme mostrado abaixo:
-
-```text
-localhost:8080
-```
 
 Contexto
 ========
