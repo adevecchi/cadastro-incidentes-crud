@@ -1,4 +1,4 @@
-## Instalação:
+## Instalação
 
 ```bash
 $ git clone https://github.com/adevecchi/rest-api-slim-php-angularjs.git
@@ -66,8 +66,8 @@ CRUD para realizar cadastro de incidentes. Cada incidente possui:
 
 Implementado apenas as telas para o CRUD, sem a necessidade de um Login, por exemplo.
 
-Captura de tela da solução
---------------------------
+Captura de tela
+---------------
 
 ![Tela principal](https://github.com/adevecchi/rest-api-slim-php-angularjs/blob/master/public/images/screenshot/index1.png)
 
