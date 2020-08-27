@@ -1,8 +1,8 @@
 ## Instalação
 
 ```bash
-$ git clone https://github.com/adevecchi/rest-api-slim-php-angularjs.git
-$ cd rest-api-slim-php-angularjs
+$ git clone https://github.com/adevecchi/crud-cadastro-incidentes.git
+$ cd crud-cadastro-incidentes
 $ composer install
 $ php -S localhost:8080 -t public
 ```
@@ -23,7 +23,7 @@ Seu conteúdo é mostrado abaixo:
     ]
 ```
 
-Alterar conforme seus valores de acesso para o MySQL. O script para o MySQL segue abaixo:
+Alterar conforme seus valores de acesso para o MySQL. O script para criar o Bando de Dados MySQL segue abaixo:
 
 ```sql
 CREATE DATABASE `dvq_red`
@@ -45,9 +45,7 @@ CREATE TABLE `incidentes` (
 
 que se encontra no arquivo ***script.sql***
 
-Contexto
-========
-**Cadastro de Incidentes.**
+# Cadastro de Incidentes.
 
 CRUD para realizar cadastro de incidentes. Cada incidente possui:
 
@@ -63,8 +61,6 @@ CRUD para realizar cadastro de incidentes. Cada incidente possui:
 - Credenciais vazadas
 - Ataque de DDoS
 - Atividades anormais de usuários
-
-Implementado apenas as telas para o CRUD, sem a necessidade de um Login, por exemplo.
 
 Captura de tela
 ---------------
